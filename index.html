@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Calendrier du Ramadan</title>
+
+  <!-- JQUERY and JQUERY ui-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <!-- Markdown to HTML !-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.0/showdown.min.js.map"></script>
+  <!-- CSS Jquery Ui -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/themes/smoothness/jquery-ui.css" />
+  <link href="https://fonts.googleapis.com/css?family=Ranga" rel="stylesheet">
+  <!-- CSS Advent calendar -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JS script Advent calendar -->
+  <script src="param.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <h1 id="title" class="center"> Calendrier du Ramadan </h1>
+
+  <div class="calendar">
+    <div class="day-container">
+  	  <div class="day">1</div>
+  	  <div class="day">2</div>
+  	  <div class="day">3</div>
+  	  <div class="day">4</div>
+  	  <div class="day">5</div>
+  	  <div class="day">6</div>
+  	  <div class="day special">7</div>
+  	  <div class="day">8</div>
+      <div class="day">9</div>
+  	  <div class="day">10</div>
+  	  <div class="day">11</div>
+  	  <div class="day">12</div>
+  	  <div class="day">13</div>
+  	  <div class="day special">14</div>
+  	  <div class="day">15</div>
+  	  <div class="day">16</div>
+      <div class="day">17</div>
+      <div class="day">18</div>
+  	  <div class="day">19</div>
+  	  <div class="day">20</div>
+  	  <div class="day special">21</div>
+  	  <div class="day">22</div>
+  	  <div class="day">23</div>
+  	  <div class="day">24</div>
+  	  <div class="day">25</div>
+      <div class="day">26</div>
+  	  <div class="day">27</div>
+  	  <div class="day special">28</div>
+  	  <div class="day">29</div>
+  	  <div class="day">30</div>
+      <div class="day special very-special">Aïd</div>
+
+    </div>
+  </div>
+</body>
+
+<div id="day-modal" class="modal center">
+  <div class="day-content">contenu du jour</div>
+</div>
+
+<div id="no-day-modal" class="modal">
+  <div class="no-day-content">
+    <p class="center readable">Trop tôt ! Encore un peu de patience ! &#x1F609;</p>
+  </div>
+</div>
+
+<footer>
+    <p class="center"> Fait par Chouheib et Amine </p>
+    <p id="developed" class="center">Powered by <a href="https://github.com/simoncourtin/AdventCalendarJS">adventCalendarJS</a>, developed by Simon Courtin </p>
+</footer>
+
+</html>
