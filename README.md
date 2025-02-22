@@ -1,3 +1,7 @@
+# Ramdan Calendar
+
+Un petit projet fait par un ami et moi en utilisant AdventCalendarJS
+
 # AdventCalendarJS
 
 Ce petit module vous permet de creer rapidement et simplement un Calendrier de l'avent sur internet. Ce module utile le langage HTML, Javascript pour recuperer les données et le langage Markdown pour les données de chaque jour.
