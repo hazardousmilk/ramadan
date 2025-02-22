@@ -10,7 +10,7 @@ $( document ).ready(function() {
     var today_month =  date.getMonth();
 
     // get day number with text number
-    var day_request = Number(element.text());
+    var day_request = element.text();
     // month request, the month of your advent calendar
     // 0 => january, 11 => december
     var month_request = params.month;
