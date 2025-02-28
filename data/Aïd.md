@@ -5,6 +5,8 @@ En ce jour béni, nous vous souhaitons (amine et moi) à tous un très bon Aïd 
 Amin !
 
 تَقَبَّلَ اللَّهُ مِنَّا وَمِنْكُمْ
+
+
 Taqabbal Allahu minna wa minkum
 Qu’Allah accepte (les bonnes actions) de nous et de vous.
 
