@@ -1,4 +1,4 @@
-# 31e jour 
+# Aïd al-Fitr
 
 En ce jour béni, nous vous souhaitons (amine et moi) à tous un très bon Aïd et nous esperons que vous passerez un très bon moment avec vos familles! N'oubliez pas de remercier Allah !
 
